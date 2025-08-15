@@ -100,4 +100,4 @@ async def submit_assessment(submission: AssessmentSubmission):
     return {"message": "Report generated successfully", "report_data": report_data}
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=8000)
+    app.run(debug=True, host='0.0.0.0', port=8001)
